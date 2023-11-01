@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PageflowAmrita | Minimalist Free HTML Portfolio by WowThemes.net</title>
+<link rel='stylesheet' href='css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+<style>
+	/* your-cart-styles.css */
+
+/* CSS for Cart Icon and Cart Content */
+.cart-icon {
+    cursor: pointer;
+}
+
+.cart-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 300px;
+    height: 100%;
+    overflow: auto;
+    z-index: 1000;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.cart-content.show-cart {
+    display: block;
+}
+
+</style>
+</head>
+<body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page">
+<div id="page">
+	<div class="container">
+		<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="shop.html" rel="home">PageflowAmrita</a></h1>
+			<h2 class="site-description">Buy pre-owned books</h2>
+		</div>
+		<nav id="site-navigation" class="main-navigation">
+		<button class="menu-toggle">Menu</button>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="menu-menu-1-container">
+			<ul id="menu-menu-1" class="menu">
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="about.html">About</a></li>
+				
+			
+				<li><a href="Learn More.html">Learn More</a></li>
+				 <!-- <li><a href="#">Pages</a>
+				<ul class="sub-menu">
+					<li><a href="portfolio-item.html">Portfolio Item</a></li>
+					<li><a href="blog-single.html">Blog Article</a></li>
+					<li><a href="shop-single.html">Shop Item</a></li>
+					<li><a href="portfolio-category.html">Portfolio Category</a></li>
+				</ul>-->
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div id="cart-icon" class="cart-icon">
+				<i class="fa fa-shopping-cart"></i>
+			</div>
+			<div id="cart-content" class="cart-content">
+				<h3>Shopping Cart</h3>
+				<ul id="cart-items"></ul>
+				<p>Total: <span id="cart-total">₹0.00</span></p>
+			</div>
+			
+		</div>
+		</nav>
+		</header>
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column full">
+				<main id="main" class="site-main" role="main">
+				<p class="woocommerce-result-count">
+					 Showing 1–8 of 12 results
+				</p>
+				<form class="woocommerce-ordering" method="get">
+					<select name="orderby" class="orderby">
+						<option value="menu_order" selected="selected">Default sorting</option>
+						<option value="popularity">Sort by popularity</option>
+						<option value="rating">Sort by average rating</option>
+						<option value="date">Sort by newness</option>
+						<option value="price">Sort by price: low to high</option>
+						<option value="price-desc">Sort by price: high to low</option>
+					</select>
+				</form>
+				<ul class="products">
+				  <div id="content" class="site-content">
+                <div id="primary" class="content-area column full">
+                    <main id="main" class="site-main" role="main">
+                        <div class="products">
+					<li class="first product">
+					<!-- <a href="shop-single.html"> -->
+					<span class="onsale">Sale!</span>
+					<img src="images/1.jfif" alt="">
+					<h3>Nature Inspired Engineering</h3>
+					<span class="price"><span class="amount">₹150.00</span></span>
+					<button class="add-to-cart" data-name="Nature Inspired Engineering" data-price="150.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+
+					<li class="product">
+					<!-- <a href=""> -->
+					<img src="images/2.jfif" alt="">
+					<h3>Engineering Mathematics I</h3>
+					<span class="price"><span class="amount">₹200.00</span></span>
+					<button class="add-to-cart" data-name=" Engineering Mathematics I" data-price="200.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="product">
+					<!-- <a href="shop-single.html"> -->
+					<img src="images/3.jfif" alt="">
+					<h3> Engineering Physics</h3>
+					<span class="price"><span class="amount">₹125.00</span></span>
+					<button class="add-to-cart" data-name="Engineering Physics" data-price="125.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="last product">
+					<!-- <a href="shop-single.html"> -->
+					<img src="images/4.jfif" alt="">
+					<h3>Physics of Semiconductors</h3>
+					<span class="price"><span class="amount">₹80.00</span></span>
+					<button class="add-to-cart" data-name="Physics of Semiconductors" data-price="80.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="first product">
+					<!-- <a href="shop-single.html"> -->
+					<img src="images/5.jfif" alt="">
+					<h3>Problem Solving and Algorithmic Thinking</h3>
+					<span class="price"><span class="amount">₹150.00</span></span>
+					<button class="add-to-cart" data-name="Gray Blouse" data-price="150.00">Add to Cart</button>
+				
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="product">
+					<!-- <a href="shop-single.html"> -->
+					<img src="images/6.jfif" alt="">
+					<h3>Computer Hardware Essentials</h3>
+					<span class="price"><span class="amount">₹160.00</span></span>
+					<button class="add-to-cart" data-name="Computer Hardware Essentials" data-price="160.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="product">
+					<!-- <a href="shop-single.html"> -->
+					<img src="images/7.jfif" alt="">
+					<h3>Discrete Mathematics</h3>
+					<span class="price"><span class="amount">₹160.00</span></span>
+					<button class="add-to-cart" data-name="Discrete Mathematics" data-price="160.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+					<li class="last product">
+					 <a href="shop-single.html"> 
+					<img src="images/8i.jpg" alt="">
+					<h3>Fundamentals of Electrical Engineering</h3>
+					<span class="price"><span class="amount">₹99.00</span></span>
+					<button class="add-to-cart" data-name="Fundamentals of Electrical Engineering" data-price="99.00">Add to Cart</button>
+					<!-- </a><a href="#" class="button">Add to cart</a> -->
+					</li>
+					
+				</ul>
+				<nav class="woocommerce-pagination">
+				<ul class="page-numbers">
+					<li><span class="page-numbers current">1</span></li>
+				
+					<li><a class="next page-numbers" href="#">→</a></li>
+				</ul>
+				</nav>
+				</main>
+				<!-- #main -->
+			</div>
+			<!-- #primary -->
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">PageflowAmrita</h1>
+			&copy; PageflowAmrita - We sell pre-owned books</a>
+		</div>
+	</div>
+	</footer>
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
+</div>
+<!-- #page -->
+<script> 
+	document.addEventListener("DOMContentLoaded", function () {
+		const cartIcon = document.getElementById("cart-icon");
+		const cartContent = document.getElementById("cart-content");
+		const cartItems = document.getElementById("cart-items");
+		const cartTotal = document.getElementById("cart-total");
+
+		let cart = [];
+
+		function updateCart() {
+			cartItems.innerHTML = "";
+			let total = 0;
+
+			cart.forEach((product) => {
+				const item = document.createElement("li");
+				item.textContent = product.name + " - ₹" + product.price.toFixed(2);
+				cartItems.appendChild(item);
+				total += product.price;
+			});
+
+			cartTotal.textContent = "₹" + total.toFixed(2);
+		}
+
+		const addButtons = document.querySelectorAll(".add-to-cart");
+		addButtons.forEach((button) => {
+			button.addEventListener("click", function () {
+				const name = button.getAttribute("data-name");
+				const price = parseFloat(button.getAttribute("data-price"));
+				cart.push({ name, price });
+				updateCart();
+			});
+		});
+
+		cartIcon.addEventListener("click", function () {
+			cartContent.classList.toggle("show-cart");
+		});
+	});
+</script> 
+
+
+<script src='js/jquery.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/scripts.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+</body>
+</html>
